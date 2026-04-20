@@ -1,0 +1,4 @@
+matplotlib
+treamlit 
+streamlit-calendar 
+pandas
