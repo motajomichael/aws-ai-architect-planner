@@ -35,8 +35,8 @@ data = load_data()
 certifications = [
     {
         "name": "Cloud Practitioner + AI Practitioner",
-        "start": "2026-04-20",
-        "end": "2026-05-17",
+        "start": "2026-05-19",
+        "end": "2026-06-15",
         "modules": [
             "Intro to Cloud",
             "Compute (EC2, Lambda)",
@@ -54,8 +54,8 @@ certifications = [
     },
     {
         "name": "Solutions Architect Associate",
-        "start": "2026-05-18",
-        "end": "2026-07-12",
+        "start": "2026-06-16",
+        "end": "2026-08-10",
         "modules": [
             "Compute Deep Dive",
             "Storage Deep Dive",
@@ -179,9 +179,12 @@ elif page == "Courses":
     certifications = [
         {
             "name": "Cloud Practitioner + AI Practitioner",
-            "start": "2026-04-20",
-            "end": "2026-05-17",
-            "exam": ["Cloud: 2026-05-15", "AI: 2026-05-17"],
+            "start": "2026-05-19",
+            "end": "2026-06-15",
+            "exam": [
+                "Cloud: 2026-06-13",
+                "AI: 2026-06-15"
+            ],
             "courses": [
                 ("Cloud Practitioner Essentials", "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials"),
                 ("AWS Technical Essentials", "https://explore.skillbuilder.aws/learn/course/external/view/elearning/185/aws-technical-essentials"),
@@ -206,9 +209,9 @@ elif page == "Courses":
         },
         {
             "name": "Solutions Architect Associate",
-            "start": "2026-05-18",
-            "end": "2026-07-12",
-            "exam": ["SAA: 2026-07-12"],
+            "start": "2026-06-16",
+            "end": "2026-08-10",
+            "exam": ["SAA: 2026-08-10"],
             "courses": [
                 ("Architecting on AWS", "https://explore.skillbuilder.aws/learn/course/external/view/elearning/185/architecting-on-aws"),
                 ("AWS Technical Essentials", "https://explore.skillbuilder.aws/learn/course/external/view/elearning/185/aws-technical-essentials")
