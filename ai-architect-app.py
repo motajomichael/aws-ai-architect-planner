@@ -30,7 +30,7 @@ def load_data():
     data.setdefault("current_module", 0)
     data.setdefault("notes", "")
     data.setdefault("delay_days", 0)
-    data.setdefault("base_start_date", "2026-04-16")
+    data.setdefault("base_start_date", "2026-05-19")
 
     # NEW
     data.setdefault("weekly_time", 0)
